@@ -132,7 +132,7 @@ components:
   parameters:
     requestedSchema:
       name: requestedSchema
-      description: Schema to be used to format the `result` field in the resposne.
+      description: Schema to be used to format the `result` field in the response.
         The response will use Beacon format.
       in: query
       required: false
