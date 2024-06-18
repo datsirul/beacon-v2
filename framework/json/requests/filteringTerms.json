@@ -1,6 +1,5 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "additionalProperties": true,
     "definitions": {
         "AlphanumericFilter": {
             "description": "Filter results based on operators and values applied to alphanumeric fields.",
