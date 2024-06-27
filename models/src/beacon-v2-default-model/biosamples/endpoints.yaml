@@ -243,7 +243,10 @@ components:
         type: array
         items:
           type: string
-        examples:
-          -   - NCIT:C3222
-          -   - OBI:0100058
-              - NCIT:C4813
+      examples:
+        example1:
+          value: ["NCIT:C3222"]
+        example2:
+          value: ["OBI:0100058"]
+        example3:
+          value: ["NCIT:C4813"]
