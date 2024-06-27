@@ -98,4 +98,3 @@ definitions:
         type: string
         description: The entry type to which the filter applies
         example: individuals
-additionalProperties: true

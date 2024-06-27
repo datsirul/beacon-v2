@@ -50,9 +50,8 @@ properties:
       this entry type could be of only one of the types (e.g. a given Dataset contains
       Individuals, while another Dataset could contain Genomic Variants, but not both
       at once).
-    includedConcepts:
-      type: array
-      $ref: ../common/basicElement.yaml
+    type: array
+    $ref: ../common/basicElement.yaml
   filteringTerms:
     description: Reference to the file with the list of filtering terms that could
       be used to filter this concept in this instance of Beacon. The referenced file

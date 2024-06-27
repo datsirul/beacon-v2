@@ -37,12 +37,13 @@ properties:
           valid, as every option would apply to different parts of the Beacon.
         type: array
         items:
+          type: string
           enum:
             - PUBLIC
             - REGISTERED
             - CONTROLLED
-          default:
-            - CONTROLLED
+        default:
+          - CONTROLLED
   entryTypes:
     $ref: '#/definitions/EntryTypes'
 definitions:
