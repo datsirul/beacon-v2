@@ -6,7 +6,7 @@
             "description": "Filter results based on operators and values applied to alphanumeric fields.",
             "properties": {
                 "id": {
-                    "description": "Field identfier to be queried.",
+                    "description": "Field identifier to be queried.",
                     "example": "age",
                     "type": "string"
                 },
