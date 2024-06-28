@@ -152,7 +152,7 @@
         "/individuals/filtering_terms": {
             "get": {
                 "description": "Get the list of filtering terms that could be used with individuals.",
-                "operationId": "getIndivualsFilteringTerms",
+                "operationId": "getIndividualsFilteringTerms",
                 "parameters": [
                     {
                         "$ref": "#/components/parameters/skip"

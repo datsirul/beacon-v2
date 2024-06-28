@@ -155,7 +155,7 @@ paths:
         - $ref: '#/components/parameters/skip'
         - $ref: '#/components/parameters/limit'
       description: Get the list of filtering terms that could be used with individuals.
-      operationId: getIndivualsFilteringTerms
+      operationId: getIndividualsFilteringTerms
       tags:
         - GET Endpoints
       responses:
