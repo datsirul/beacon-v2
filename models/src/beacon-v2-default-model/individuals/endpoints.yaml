@@ -97,7 +97,7 @@ paths:
     post:
       description: Get the genomic variants list from one individual, identified by
         its (unique) 'id'
-      operationId: potOneIndividualGenomicVariants
+      operationId: postOneIndividualGenomicVariants
       tags:
         - POST Endpoints
       requestBody:
