@@ -16,6 +16,7 @@
                 }
             ]
         },
+        "returnedGranularity": "boolean",
         "returnedSchemas": [
             {
                 "entityType": "EntryTypeB",

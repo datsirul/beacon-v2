@@ -5,6 +5,7 @@ meta:
   returnedSchemas:
     - entityType: EntryTypeB
       schema: entry-typeB-schema-v1.0
+  returnedGranularity: boolean
   receivedRequestSummary:
     apiVersion: '2.0'
     requestedSchemas:
