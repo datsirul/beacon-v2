@@ -8,6 +8,7 @@ meta:
   returnedGranularity: boolean
   receivedRequestSummary:
     apiVersion: '2.0'
+    requestedGranularity: boolean
     requestedSchemas:
       - entityType: EntryTypeB
         schema: entry-typeB-schema-v1.0

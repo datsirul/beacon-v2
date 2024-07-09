@@ -9,6 +9,7 @@
                 "limit": 10,
                 "skip": 0
             },
+            "requestedGranularity": "boolean",
             "requestedSchemas": [
                 {
                     "entityType": "EntryTypeB",
