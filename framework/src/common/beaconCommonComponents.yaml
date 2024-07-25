@@ -249,7 +249,15 @@ definitions:
       - url
     properties:
       handoverType:
-        $ref: '#/definitions/HandoverType'
+        description: >-
+          Handover type, as an Ontology_term object with CURIE syntax for the `id` value.
+          Use `CUSTOM` for the `id` when no ontology is available.
+        $ref: ./ontologyTerm.yaml
+        examples:
+          - id: EFO:0004157
+            label: BAM format
+          - id: CUSTOM
+            label: download genomic variants in .pgxseg file format
       note:
         type: string
         description: >-
@@ -263,13 +271,3 @@ definitions:
           URL endpoint to where the handover process could progress, in
           RFC3986 format
         example: https://api.mygenomeservice.org/Handover/9dcc48d7-fc88-11e8-9110-b0c592dbf8c0/
-  HandoverType:
-    description: >-
-      Handover type, as an Ontology_term object with CURIE syntax for the `id` value.
-      Use `CUSTOM` for the `id` when no ontology is available.
-    $ref: ./ontologyTerm.yaml
-    examples:
-      - id: EFO:0004157
-        label: BAM format
-      - id: CUSTOM
-        label: download genomic variants in .pgxseg file format
