@@ -98,7 +98,7 @@ paths:
     post:
       description: Get the genomic variants list from one run, identified by its (unique)
         'id'
-      operationId: potOneRunGenomicVariants
+      operationId: postOneRunGenomicVariants
       tags:
         - POST Endpoints
       requestBody:
@@ -182,7 +182,10 @@ components:
       schema:
         $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/Limit
     includeResultsetResponses:
-      $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/IncludeResultsetResponses
+      name: includeResultsetResponses
+      in: query
+      schema:
+        $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/IncludeResultsetResponses
     entryId:
       name: id
       in: path
@@ -208,5 +211,6 @@ components:
         type: array
         items:
           type: string
-        examples:
-          -   - OBI:0002048
+      examples:
+        example1:
+          value: ["OBI:0002048"]

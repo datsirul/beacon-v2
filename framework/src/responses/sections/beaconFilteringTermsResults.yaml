@@ -10,9 +10,9 @@ properties:
   filteringTerms:
     type: array
     items:
-      $ref: '#/definitions/FilteringTerm'
+      $ref: '#/definitions/ResponseFilteringTerm'
 definitions:
-  FilteringTerm:
+  ResponseFilteringTerm:
     type: object
     description: >-
       Entities can be filtered using this term.
